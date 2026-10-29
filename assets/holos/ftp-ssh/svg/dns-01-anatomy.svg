@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>도메인 이름은 뒤에서부터 읽습니다</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#1F3A5F">도메인 이름은 뒤에서부터 읽습니다</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<text x="60" y="112" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#6B7280">예 1</text>
+<rect x="60" y="124" width="202" height="60" rx="10" fill="#E7F4EC" stroke="#1E6B4A" stroke-width="2.5" opacity="1"/>
+<text x="161.0" y="164" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1E6B4A">202599999</text>
+<text x="272" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="286" y="124" width="202" height="60" rx="10" fill="#E7F4EC" stroke="#1E6B4A" stroke-width="2.5" opacity="1"/>
+<text x="387.0" y="164" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1E6B4A">holos</text>
+<text x="498" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="512" y="124" width="215" height="60" rx="10" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="619.5" y="164" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#2B4C7E">epiph</text>
+<text x="737" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="751" y="124" width="267" height="60" rx="10" fill="#F6F8FB" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<text x="884.5" y="164" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1F3A5F">net</text>
+<text x="1028" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<text x="161.0" y="210" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">하위 도메인</text>
+<text x="161.0" y="228" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(소유자가 자유롭게 만듦)</text>
+<text x="387.0" y="210" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">하위 도메인</text>
+<text x="387.0" y="228" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(소유자가 자유롭게 만듦)</text>
+<text x="619.5" y="210" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">2단계 도메인</text>
+<text x="619.5" y="228" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(등록대행사에서 빌린 이름)</text>
+<text x="884.5" y="210" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">최상위 도메인 TLD</text>
+<text x="884.5" y="228" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(.net, .com, .kr …)</text>
+<text x="1052" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#6B7280">← 루트(root)</text>
+<line x1="512" y1="236" x2="1018" y2="236" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<text x="765.0" y="258" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#2B4C7E">epiph.net = 등록한 도메인 (해마다 돈을 내고 빌림)</text>
+<line x1="60" y1="286" x2="1018" y2="286" stroke="#1E6B4A" stroke-width="3" stroke-linecap="round"/>
+<text x="539.0" y="308" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E6B4A">202599999.holos.epiph.net = 호스트 이름(FQDN): 실제 서버 하나를 가리키는 완전한 이름</text>
+<text x="60" y="362" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#6B7280">예 2</text>
+<rect x="60" y="374" width="150" height="60" rx="10" fill="#E7F4EC" stroke="#1E6B4A" stroke-width="2.5" opacity="1"/>
+<text x="135.0" y="414" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1E6B4A">www</text>
+<text x="220" y="414" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="234" y="374" width="150" height="60" rx="10" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="309.0" y="414" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#2B4C7E">knsu</text>
+<text x="394" y="414" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="408" y="374" width="202" height="60" rx="10" fill="#F6F8FB" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<text x="509.0" y="414" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1F3A5F">ac</text>
+<text x="620" y="414" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<rect x="634" y="374" width="228" height="60" rx="10" fill="#F6F8FB" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<text x="748.0" y="414" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="24" font-weight="700" text-anchor="middle" fill="#1F3A5F">kr</text>
+<text x="872" y="414" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#6B7280">.</text>
+<text x="135.0" y="460" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">하위 도메인</text>
+<text x="135.0" y="478" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(관례상 웹 서버)</text>
+<text x="309.0" y="460" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">기관이 등록한 이름</text>
+<text x="309.0" y="478" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(한국체육대학교)</text>
+<text x="509.0" y="460" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">2단계 공공 접미사</text>
+<text x="509.0" y="478" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(학술기관: .ac.kr)</text>
+<text x="748.0" y="460" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">국가 최상위 도메인 ccTLD</text>
+<text x="748.0" y="478" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#1F2937">(대한민국, KISA 관리)</text>
+<rect x="60" y="500" width="1080" height="136" rx="14" fill="#FFF4E0" stroke="#F3D7A3" stroke-width="2" opacity="1"/>
+<text x="600" y="532" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#B45309">읽는 순서는 오른쪽에서 왼쪽: 넓은 범위(.kr) → 좁은 범위(www)</text>
+<text x="600" y="566" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">점(.)으로 나뉜 칸 하나를 라벨이라 부릅니다. 라벨은 영문 소문자·숫자·하이픈(-)만, 63자까지, 전체 이름은 253자까지입니다.</text>
+<text x="600" y="592" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">대소문자는 구별하지 않습니다 (EPIPH.net = epiph.net). 하위 도메인은 몇 단계든 만들 수 있고, 추가 비용이 없습니다.</text>
+</svg>

@@ -433,6 +433,218 @@ def d_one_door():
     return s
 
 
+# ----------------------------------------------------------------------
+# 7. 도메인 이름의 구조
+# ----------------------------------------------------------------------
+def d_dns_anatomy():
+    s = SVG("도메인 이름은 뒤에서부터 읽습니다")
+    title(s, "도메인 이름은 뒤에서부터 읽습니다")
+
+    def name_row(y, labels, note_left, note_right, bracket_regs, bracket_fqdn):
+        # labels: list of (text, color, fill, caption lines)
+        x = 60
+        boxes = []
+        for text, color, fill, cap in labels:
+            cap_w = max(len(c) for c in cap) * 13 + 20
+            w = max(24 + max(len(text) * 15, 60), cap_w)
+            s.rect(x, y, w, 60, fill=fill, stroke=color, sw=2.5, rx=10)
+            s.text(x + w / 2, y + 40, text, size=24, weight=700, fill=color, family=MONO)
+            boxes.append((x, w, cap, color))
+            x += w
+            s.text(x + 10, y + 40, ".", size=28, weight=700, fill=C["grey"])
+            x += 24
+        for bx, bw, cap, color in boxes:
+            s.lines(bx + bw / 2, y + 86, cap, size=13, step=18, anchor="middle", fill=C["ink"])
+        return boxes
+
+    # 예 1
+    s.text(60, 112, "예 1", size=16, weight=700, fill=C["grey"], anchor="start")
+    boxes = name_row(124, [
+        ("202599999", C["green"], C["greenbg"], ["하위 도메인", "(소유자가 자유롭게 만듦)"]),
+        ("holos", C["green"], C["greenbg"], ["하위 도메인", "(소유자가 자유롭게 만듦)"]),
+        ("epiph", C["blue"], C["light"], ["2단계 도메인", "(등록대행사에서 빌린 이름)"]),
+        ("net", C["navy"], C["pale"], ["최상위 도메인 TLD", "(.net, .com, .kr …)"]),
+    ], None, None, None, None)
+    # 루트 표시
+    lx = boxes[-1][0] + boxes[-1][1] + 34
+    s.text(lx, 164, "← 루트(root)", size=13, fill=C["grey"], anchor="start")
+    # 괄호 설명
+    bx1 = boxes[2][0]
+    bx2 = boxes[3][0] + boxes[3][1]
+    s.line(bx1, 236, bx2, 236, stroke=C["blue"], sw=3)
+    s.text((bx1 + bx2) / 2, 258, "epiph.net = 등록한 도메인 (해마다 돈을 내고 빌림)", size=14, fill=C["blue"], weight=700)
+    ax1 = boxes[0][0]
+    s.line(ax1, 286, bx2, 286, stroke=C["green"], sw=3)
+    s.text((ax1 + bx2) / 2, 308, "202599999.holos.epiph.net = 호스트 이름(FQDN): 실제 서버 하나를 가리키는 완전한 이름", size=14, fill=C["green"], weight=700)
+
+    # 예 2
+    s.text(60, 362, "예 2", size=16, weight=700, fill=C["grey"], anchor="start")
+    name_row(374, [
+        ("www", C["green"], C["greenbg"], ["하위 도메인", "(관례상 웹 서버)"]),
+        ("knsu", C["blue"], C["light"], ["기관이 등록한 이름", "(한국체육대학교)"]),
+        ("ac", C["navy"], C["pale"], ["2단계 공공 접미사", "(학술기관: .ac.kr)"]),
+        ("kr", C["navy"], C["pale"], ["국가 최상위 도메인 ccTLD", "(대한민국, KISA 관리)"]),
+    ], None, None, None, None)
+
+    s.rect(60, 500, 1080, 136, fill=C["amberbg"], stroke="#F3D7A3", sw=2)
+    s.text(600, 532, "읽는 순서는 오른쪽에서 왼쪽: 넓은 범위(.kr) → 좁은 범위(www)", size=18, weight=700, fill=C["amber"])
+    s.lines(600, 566, ["점(.)으로 나뉜 칸 하나를 라벨이라 부릅니다. 라벨은 영문 소문자·숫자·하이픈(-)만, 63자까지, 전체 이름은 253자까지입니다.",
+                       "대소문자는 구별하지 않습니다 (EPIPH.net = epiph.net). 하위 도메인은 몇 단계든 만들 수 있고, 추가 비용이 없습니다."],
+            size=14, step=26, anchor="middle", fill=C["ink"])
+    return s
+
+
+# ----------------------------------------------------------------------
+# 8. DNS 조회 과정
+# ----------------------------------------------------------------------
+def d_dns_lookup():
+    s = SVG("주소창에 이름을 치면 일어나는 일 — DNS 조회")
+    title(s, "주소창에 이름을 치면 일어나는 일 — DNS 조회", size=28)
+
+    # 브라우저
+    s.rect(60, 150, 250, 120, fill=C["pale"])
+    s.text(185, 190, "내 컴퓨터", size=22, weight=700)
+    s.text(185, 218, "브라우저가 주소창의", size=14, fill=C["grey"])
+    s.text(185, 238, "이름을 숫자 주소로 바꿔야 함", size=14, fill=C["grey"])
+    # 리졸버
+    s.rect(400, 150, 300, 120, fill=C["light"], stroke=C["blue"])
+    s.text(550, 190, "리졸버 (DNS 서버)", size=22, weight=700, fill=C["navy"])
+    s.text(550, 218, "통신사·학교·회사가 운영, 또는", size=14, fill=C["grey"])
+    s.text(550, 238, "8.8.8.8 · 1.1.1.1 같은 공개 서버", size=14, fill=C["grey"], family=MONO)
+    # 오른쪽 세 서버
+    s.rect(820, 100, 320, 64, fill=C["pale"], stroke=C["line"], sw=1.5)
+    s.text(980, 126, "루트 네임서버 ( . )", size=17, weight=700)
+    s.text(980, 150, "\".net은 저쪽 서버가 안다\"", size=13, fill=C["grey"])
+    s.rect(820, 200, 320, 64, fill=C["pale"], stroke=C["line"], sw=1.5)
+    s.text(980, 226, ".net 최상위 네임서버", size=17, weight=700)
+    s.text(980, 250, "\"epiph.net은 Hostinger 네임서버가 안다\"", size=13, fill=C["grey"])
+    s.rect(820, 300, 320, 78, fill=C["greenbg"], stroke=C["green"])
+    s.text(980, 328, "epiph.net 권한 네임서버", size=17, weight=700, fill=C["green"])
+    s.text(980, 350, "(Hostinger) 소유자가 적어 둔 레코드 보관", size=13, fill=C["grey"])
+    s.text(980, 368, "\"202599999.holos → 203.0.113.10\"", size=13, fill=C["green"], family=MONO)
+
+    # 화살표와 번호
+    def num(x, y, n):
+        s.circle(x, y, 13, fill=C["navy"], stroke=C["navy"])
+        s.text(x, y + 5, n, size=14, weight=700, fill=C["white"])
+
+    s.arrow(312, 196, 396, 196, stroke=C["blue"])
+    num(354, 178, "1")
+    s.text(354, 138, "이 이름의 주소는?", size=13, fill=C["blue"])
+    s.arrow(704, 180, 816, 132, stroke=C["grey"], sw=2.5, head=11)
+    num(748, 142, "2")
+    s.arrow(704, 206, 816, 232, stroke=C["grey"], sw=2.5, head=11)
+    num(748, 226, "3")
+    s.arrow(704, 236, 816, 334, stroke=C["green"], sw=3, head=12)
+    num(748, 300, "4")
+    s.arrow(396, 240, 312, 240, stroke=C["green"], sw=3)
+    num(354, 262, "5")
+    s.text(354, 296, "203.0.113.10 (TTL 동안 기억)", size=13, fill=C["green"], family=MONO)
+
+    # 웹 서버
+    s.rect(400, 440, 300, 110, fill=C["white"], stroke=C["navy"], sw=2.5)
+    s.text(550, 478, "웹 서버 203.0.113.10", size=19, weight=700, fill=C["navy"], family=MONO)
+    s.text(550, 504, "Replit · 공유호스팅 · VPS 어디든", size=14, fill=C["grey"])
+    s.text(550, 526, "이 숫자 주소를 가진 컴퓨터", size=14, fill=C["grey"])
+    s.line(185, 274, 185, 495, stroke=C["navy"], sw=3.5)
+    s.arrow(185, 495, 396, 495, stroke=C["navy"])
+    num(185, 380, "6")
+    s.text(215, 385, "숫자 주소로 접속 (HTTPS, 443번 문)", size=13, fill=C["navy"], anchor="start")
+
+    s.rect(760, 420, 380, 150, fill=C["amberbg"], stroke="#F3D7A3", sw=2)
+    s.text(950, 450, "캐시와 전파", size=17, weight=700, fill=C["amber"])
+    s.lines(950, 478, ["한 번 알아낸 답은 TTL(예: 1시간) 동안", "리졸버와 브라우저가 기억합니다.", "그래서 레코드를 바꾸면 모든 곳에", "퍼지는 데 시간이 걸립니다(전파)."], size=13, step=22, anchor="middle", fill=C["ink"])
+
+    s.text(600, 625, "2~4번은 리졸버가 알아서 합니다. 내 컴퓨터는 1번을 묻고 5번 답을 받을 뿐입니다. 보통 수십 밀리초면 끝납니다.", size=14, fill=C["grey"])
+    return s
+
+
+# ----------------------------------------------------------------------
+# 9. 우리 수업 존의 레코드
+# ----------------------------------------------------------------------
+def d_dns_records():
+    s = SVG("epiph.net 존의 레코드 — 이름 하나로 땅 세 곳")
+    title(s, "epiph.net 존의 레코드(일부) — 이름 하나로 땅 세 곳", size=28)
+
+    cols = [(80, "이름 (epiph.net 아래)"), (400, "종류"), (520, "값"), (900, "연결되는 곳")]
+    s.rect(60, 100, 1080, 44, fill=C["navy"], stroke=C["navy"], rx=8)
+    for x, h in cols:
+        s.text(x, 129, h, size=16, weight=700, fill=C["white"], anchor="start")
+    rows = [
+        ("202599999.holos", "A", "34.111.179.208", "Replit 배포본 — 1번째 땅", C["blue"], C["light"]),
+        ("202599999.holos", "TXT", "replit-verify=…", "Replit에 \"이 이름은 내 것\" 증명", C["blue"], C["light"]),
+        ("holos202599999", "ALIAS", "holos202599999.epiph.net.cdn.hstgr.net", "공유호스팅(hPanel) — 2번째 땅", C["amber"], C["amberbg"]),
+        ("*.srv.holos", "A", "VPS의 IP 주소 (한 줄로 전체)", "VPS — 3번째 땅 (와일드카드)", C["green"], C["greenbg"]),
+        ("gamma.holos", "CNAME", "Gamma가 알려 준 이름", "강의록 (gamma.holos.epiph.net/…)", C["grey"], C["pale"]),
+    ]
+    y = 150
+    for name, typ, val, where, color, fill in rows:
+        s.rect(60, y, 1080, 54, fill=fill, stroke=fill, rx=8)
+        s.text(80, y + 34, name, size=17, weight=700, fill=color, family=MONO, anchor="start")
+        s.text(400, y + 34, typ, size=17, weight=700, fill=color, family=MONO, anchor="start")
+        s.text(520, y + 34, val, size=15, fill=C["ink"], family=MONO, anchor="start")
+        s.text(900, y + 34, where, size=15, fill=C["ink"], anchor="start")
+        y += 60
+
+    s.rect(60, 470, 520, 170, fill=C["pale"], stroke=C["line"], sw=1.5)
+    s.text(320, 500, "레코드 종류 읽는 법", size=17, weight=700, fill=C["navy"])
+    s.lines(84, 530, ["A — 이 이름은 이 IPv4 주소다 (AAAA는 IPv6)",
+                      "CNAME · ALIAS — 이 이름은 저 이름의 별명이다",
+                      "TXT — 글자 메모 (소유 증명, 메일 정책 등)",
+                      "* — 와일드카드: 어떤 라벨이 와도 이 값으로"], size=14, step=26, anchor="start")
+    s.rect(620, 470, 520, 170, fill=C["greenbg"], stroke=C["green"])
+    s.text(880, 500, "학번 202599999 학생이 갖게 되는 이름 세 개", size=17, weight=700, fill=C["green"])
+    s.lines(644, 530, ["202599999.holos.epiph.net  → Replit",
+                       "holos202599999.epiph.net   → 공유호스팅 (FTP로 올림)",
+                       "202599999.srv.holos.epiph.net → VPS (SFTP로 올림)",
+                       "같은 앱, 다른 땅 — 이름이 가리키는 곳만 다르다"], size=14, step=26, anchor="start", family=MONO)
+    return s
+
+
+# ----------------------------------------------------------------------
+# 10. 도메인 이름의 소유 — 누가 무엇을 하나
+# ----------------------------------------------------------------------
+def d_dns_ownership():
+    s = SVG("도메인 이름의 소유 — 누가 무엇을 하나")
+    title(s, "도메인 이름의 소유 — 누가 무엇을 하나")
+
+    chain = [
+        ("ICANN · IANA", ["전 세계 이름 체계를 조정", "루트 존 관리, TLD 승인"], C["grey"], C["pale"]),
+        ("레지스트리", ["TLD의 장부(존) 관리", ".com .net: Verisign", ".kr: KISA(한국인터넷진흥원)"], C["navy"], C["pale"]),
+        ("등록대행사", ["등록·갱신·이전 창구", "Hostinger, 가비아, Cloudflare,", "Namecheap, GoDaddy …"], C["blue"], C["light"]),
+        ("등록인 (나)", ["1년 단위로 빌려 씀 (최대 10년)", "네임서버와 레코드를 결정", "하위 도메인을 마음껏 만듦"], C["green"], C["greenbg"]),
+    ]
+    x = 60
+    bw, gap = 250, 26
+    for i, (head, body, color, fill) in enumerate(chain):
+        s.rect(x, 110, bw, 190, fill=fill, stroke=color, sw=2.5)
+        s.text(x + bw / 2, 148, head, size=21, weight=700, fill=color)
+        s.lines(x + bw / 2, 184, body, size=14, step=24, anchor="middle")
+        if i < len(chain) - 1:
+            s.arrow(x + bw + 2, 205, x + bw + gap - 2, 205, stroke=C["line"], sw=3, head=10)
+        x += bw + gap
+
+    s.rect(60, 340, 1080, 110, fill=C["amberbg"], stroke="#F3D7A3", sw=2)
+    s.text(600, 372, "도메인은 사는 것이 아니라 빌리는 것입니다", size=19, weight=700, fill=C["amber"])
+    s.lines(600, 402, ["해마다 갱신하지 않으면 유예 기간 뒤에 풀려나고, 다른 사람이 등록할 수 있습니다. 자동 갱신을 켜 두고 결제 수단과 연락용 이메일을 최신으로 유지합니다.",
+                       "등록 정보(WHOIS/RDAP)에는 등록인 연락처가 올라가며, 대부분의 등록대행사가 개인정보 보호(privacy) 옵션을 제공합니다."],
+            size=14, step=24, anchor="middle", fill=C["ink"])
+
+    s.rect(60, 480, 520, 160, fill=C["pale"], stroke=C["line"], sw=1.5)
+    s.text(320, 510, "DNS 호스팅 — 레코드를 보관하는 네임서버", size=16, weight=700, fill=C["navy"])
+    s.lines(84, 540, ["등록대행사가 기본 제공 (epiph.net은 Hostinger)",
+                      "Cloudflare 같은 전문 서비스로 옮길 수도 있음",
+                      "등록대행사와 DNS 호스팅은 서로 다른 회사여도 됨",
+                      "네임서버(NS) 설정이 둘을 잇는 고리"], size=14, step=26, anchor="start")
+    s.rect(620, 480, 520, 160, fill=C["light"], stroke=C["blue"])
+    s.text(880, 510, "소유를 증명하는 순간들", size=16, weight=700, fill=C["navy"])
+    s.lines(644, 540, ["Replit·GitHub·Google에 도메인 연결 → TXT 레코드 넣기",
+                       "HTTPS 인증서(Let's Encrypt) 발급 → 웹 파일 또는 TXT 레코드",
+                       "둘 다 \"이 이름의 레코드를 바꿀 수 있는 사람\"만 할 수 있음",
+                       "= 레코드를 바꿀 권한이 곧 소유의 증거"], size=14, step=26, anchor="start")
+    return s
+
+
 DIAGRAMS = [
     ("ftp-01-transfer", d_ftp_transfer),
     ("ftp-02-postcard", d_postcard),
@@ -440,6 +652,10 @@ DIAGRAMS = [
     ("ssh-01-terminal", d_terminal),
     ("ssh-02-keypair", d_keypair),
     ("ssh-03-one-door", d_one_door),
+    ("dns-01-anatomy", d_dns_anatomy),
+    ("dns-02-lookup", d_dns_lookup),
+    ("dns-03-records", d_dns_records),
+    ("dns-04-ownership", d_dns_ownership),
 ]
 
 

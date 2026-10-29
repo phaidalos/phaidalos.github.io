@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>도메인 이름의 소유 — 누가 무엇을 하나</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#1F3A5F">도메인 이름의 소유 — 누가 무엇을 하나</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="110" width="250" height="190" rx="14" fill="#F6F8FB" stroke="#6B7280" stroke-width="2.5" opacity="1"/>
+<text x="185.0" y="148" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#6B7280">ICANN · IANA</text>
+<text x="185.0" y="184" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">전 세계 이름 체계를 조정</text>
+<text x="185.0" y="208" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">루트 존 관리, TLD 승인</text>
+<line x1="312" y1="205" x2="324.0" y2="205.0" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+<polygon points="334,205 324.0,199.5 324.0,210.5" fill="#9CA3AF"/>
+<rect x="336" y="110" width="250" height="190" rx="14" fill="#F6F8FB" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<text x="461.0" y="148" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1F3A5F">레지스트리</text>
+<text x="461.0" y="184" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">TLD의 장부(존) 관리</text>
+<text x="461.0" y="208" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">.com .net: Verisign</text>
+<text x="461.0" y="232" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">.kr: KISA(한국인터넷진흥원)</text>
+<line x1="588" y1="205" x2="600.0" y2="205.0" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+<polygon points="610,205 600.0,199.5 600.0,210.5" fill="#9CA3AF"/>
+<rect x="612" y="110" width="250" height="190" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="737.0" y="148" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#2B4C7E">등록대행사</text>
+<text x="737.0" y="184" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">등록·갱신·이전 창구</text>
+<text x="737.0" y="208" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">Hostinger, 가비아, Cloudflare,</text>
+<text x="737.0" y="232" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">Namecheap, GoDaddy …</text>
+<line x1="864" y1="205" x2="876.0" y2="205.0" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+<polygon points="886,205 876.0,199.5 876.0,210.5" fill="#9CA3AF"/>
+<rect x="888" y="110" width="250" height="190" rx="14" fill="#E7F4EC" stroke="#1E6B4A" stroke-width="2.5" opacity="1"/>
+<text x="1013.0" y="148" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E6B4A">등록인 (나)</text>
+<text x="1013.0" y="184" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">1년 단위로 빌려 씀 (최대 10년)</text>
+<text x="1013.0" y="208" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">네임서버와 레코드를 결정</text>
+<text x="1013.0" y="232" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">하위 도메인을 마음껏 만듦</text>
+<rect x="60" y="340" width="1080" height="110" rx="14" fill="#FFF4E0" stroke="#F3D7A3" stroke-width="2" opacity="1"/>
+<text x="600" y="372" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#B45309">도메인은 사는 것이 아니라 빌리는 것입니다</text>
+<text x="600" y="402" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">해마다 갱신하지 않으면 유예 기간 뒤에 풀려나고, 다른 사람이 등록할 수 있습니다. 자동 갱신을 켜 두고 결제 수단과 연락용 이메일을 최신으로 유지합니다.</text>
+<text x="600" y="426" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#1F2937">등록 정보(WHOIS/RDAP)에는 등록인 연락처가 올라가며, 대부분의 등록대행사가 개인정보 보호(privacy) 옵션을 제공합니다.</text>
+<rect x="60" y="480" width="520" height="160" rx="14" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="320" y="510" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1F3A5F">DNS 호스팅 — 레코드를 보관하는 네임서버</text>
+<text x="84" y="540" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">등록대행사가 기본 제공 (epiph.net은 Hostinger)</text>
+<text x="84" y="566" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">Cloudflare 같은 전문 서비스로 옮길 수도 있음</text>
+<text x="84" y="592" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">등록대행사와 DNS 호스팅은 서로 다른 회사여도 됨</text>
+<text x="84" y="618" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">네임서버(NS) 설정이 둘을 잇는 고리</text>
+<rect x="620" y="480" width="520" height="160" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="880" y="510" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1F3A5F">소유를 증명하는 순간들</text>
+<text x="644" y="540" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">Replit·GitHub·Google에 도메인 연결 → TXT 레코드 넣기</text>
+<text x="644" y="566" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">HTTPS 인증서(Let's Encrypt) 발급 → 웹 파일 또는 TXT 레코드</text>
+<text x="644" y="592" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">둘 다 "이 이름의 레코드를 바꿀 수 있는 사람"만 할 수 있음</text>
+<text x="644" y="618" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#1F2937">= 레코드를 바꿀 권한이 곧 소유의 증거</text>
+</svg>
