@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>SSH 키 쌍 — 자물쇠는 서버에, 열쇠는 내 컴퓨터에</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#1F3A5F">SSH 키 쌍 — 자물쇠는 서버에, 열쇠는 내 컴퓨터에</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="100" width="460" height="270" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="290" y="138" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1F2937">내 컴퓨터</text>
+<text x="290" y="162" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">ssh-keygen 명령 한 번으로 두 파일이 생긴다</text>
+<circle cx="110" cy="215" r="16.0" fill="#FFFFFF" stroke="#B45309" stroke-width="4.0"/>
+<circle cx="110" cy="215" r="5.0" fill="#B45309" stroke="#B45309" stroke-width="2.5"/>
+<line x1="126.0" y1="215" x2="182.0" y2="215" stroke="#B45309" stroke-width="6.0" stroke-linecap="round"/>
+<line x1="168.0" y1="215" x2="168.0" y2="229.0" stroke="#B45309" stroke-width="6.0" stroke-linecap="round"/>
+<line x1="180.0" y1="215" x2="180.0" y2="233.0" stroke="#B45309" stroke-width="6.0" stroke-linecap="round"/>
+<text x="200" y="206" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#B45309">개인키 (private key)</text>
+<text x="200" y="230" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="15" font-weight="400" text-anchor="start" fill="#6B7280">id_ed25519</text>
+<text x="200" y="254" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#B91C1C">열쇠 — 절대 밖으로 내보내지 않는다</text>
+<path d="M 100.0 300 V 284.0 A 16.0 16.0 0 0 1 132.0 284.0 V 300" fill="none" stroke="#2B4C7E" stroke-width="5.0" stroke-linecap="round"/>
+<rect x="90" y="300" width="52.0" height="40.0" rx="6.0" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="4.0" opacity="1"/>
+<circle cx="116.0" cy="318.0" r="5.0" fill="#2B4C7E" stroke="#2B4C7E" stroke-width="2.5"/>
+<line x1="116.0" y1="320.0" x2="116.0" y2="330.0" stroke="#2B4C7E" stroke-width="4.0" stroke-linecap="round"/>
+<text x="200" y="300" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#2B4C7E">공개키 (public key)</text>
+<text x="200" y="324" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="15" font-weight="400" text-anchor="start" fill="#6B7280">id_ed25519.pub</text>
+<text x="200" y="348" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="start" fill="#1F2937">자물쇠 — 누가 봐도 괜찮다, 서버에 복사한다</text>
+<rect x="680" y="100" width="460" height="270" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="910" y="138" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1F2937">서버</text>
+<text x="910" y="162" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">~/.ssh/authorized_keys — 등록된 자물쇠 목록</text>
+<rect x="720" y="190" width="380" height="150" rx="8" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<path d="M 745.5 214 V 205.2 A 8.8 8.8 0 0 1 763.1 205.2 V 214" fill="none" stroke="#2B4C7E" stroke-width="2.75" stroke-linecap="round"/>
+<rect x="740" y="214" width="28.6" height="22.0" rx="3.3000000000000003" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2.2" opacity="1"/>
+<circle cx="754.3" cy="223.9" r="2.75" fill="#2B4C7E" stroke="#2B4C7E" stroke-width="2.5"/>
+<line x1="754.3" y1="225.0" x2="754.3" y2="230.5" stroke="#2B4C7E" stroke-width="2.2" stroke-linecap="round"/>
+<text x="800" y="234" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#2B4C7E">siwoo의 노트북</text>
+<path d="M 745.5 260 V 251.2 A 8.8 8.8 0 0 1 763.1 251.2 V 260" fill="none" stroke="#6B7280" stroke-width="2.75" stroke-linecap="round"/>
+<rect x="740" y="260" width="28.6" height="22.0" rx="3.3000000000000003" fill="#FFFFFF" stroke="#6B7280" stroke-width="2.2" opacity="1"/>
+<circle cx="754.3" cy="269.9" r="2.75" fill="#6B7280" stroke="#6B7280" stroke-width="2.5"/>
+<line x1="754.3" y1="271.0" x2="754.3" y2="276.5" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round"/>
+<text x="800" y="280" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#6B7280">siwoo의 연구실 PC</text>
+<path d="M 745.5 306 V 297.2 A 8.8 8.8 0 0 1 763.1 297.2 V 306" fill="none" stroke="#6B7280" stroke-width="2.75" stroke-linecap="round"/>
+<rect x="740" y="306" width="28.6" height="22.0" rx="3.3000000000000003" fill="#FFFFFF" stroke="#6B7280" stroke-width="2.2" opacity="1"/>
+<circle cx="754.3" cy="315.9" r="2.75" fill="#6B7280" stroke="#6B7280" stroke-width="2.5"/>
+<line x1="754.3" y1="317.0" x2="754.3" y2="322.5" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round"/>
+<text x="800" y="326" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#6B7280">배포용 GitHub Actions</text>
+<line x1="525" y1="322" x2="703.2846745010672" y2="239.85836986338265" stroke="#2B4C7E" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="716,234 700.1,232.9 706.5,246.9" fill="#2B4C7E"/>
+<text x="600" y="212" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#2B4C7E">공개키만 서버에 등록</text>
+<text x="600" y="234" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#6B7280">(ssh-copy-id, 또는 복사·붙여넣기)</text>
+<rect x="60" y="410" width="1080" height="228" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="600" y="446" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1F3A5F">로그인할 때 일어나는 일 — 비밀번호도 개인키도 네트워크를 지나지 않습니다</text>
+<circle cx="90" cy="520" r="20" fill="#1F3A5F" stroke="#1F3A5F" stroke-width="2.5"/>
+<text x="90" y="528" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="260" y="512" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1F2937">서버가 문제를 낸다</text>
+<text x="260" y="548" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">"이 자물쇠를 열 수 있는지</text>
+<text x="260" y="572" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">증명해 봐" — 수학 문제 하나</text>
+<circle cx="450" cy="520" r="20" fill="#1F3A5F" stroke="#1F3A5F" stroke-width="2.5"/>
+<text x="450" y="528" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#FFFFFF">2</text>
+<text x="620" y="512" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1F2937">내 컴퓨터가 개인키로 푼다</text>
+<text x="620" y="548" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">개인키 자체는 보내지 않고</text>
+<text x="620" y="572" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">답(서명)만 보낸다</text>
+<circle cx="810" cy="520" r="20" fill="#1F3A5F" stroke="#1F3A5F" stroke-width="2.5"/>
+<text x="810" y="528" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#FFFFFF">3</text>
+<text x="980" y="512" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1F2937">서버가 공개키로 확인한다</text>
+<text x="980" y="548" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">답이 맞으면 통과,</text>
+<text x="980" y="572" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">틀리면 거절 — 그걸로 끝</text>
+<line x1="400" y1="520" x2="414.0" y2="520.0" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="428,520 414.0,512.3 414.0,527.7" fill="#9CA3AF"/>
+<line x1="760" y1="520" x2="774.0" y2="520.0" stroke="#9CA3AF" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="788,520 774.0,512.3 774.0,527.7" fill="#9CA3AF"/>
+<text x="600" y="620" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#6B7280">같은 방식이 GitHub, Replit, 클라우드 서버 어디서나 쓰입니다.</text>
+</svg>

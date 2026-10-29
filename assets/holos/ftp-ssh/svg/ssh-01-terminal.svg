@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>원격 접속 — 내 터미널이 멀리 있는 컴퓨터의 셸에 연결된다</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#1F3A5F">원격 접속 — 내 터미널이 멀리 있는 컴퓨터의 셸에 연결됩니다</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="110" width="480" height="300" rx="12" fill="#111827" stroke="#111827" stroke-width="2.5" opacity="1"/>
+<rect x="60" y="110" width="480" height="40" rx="12" fill="#374151" stroke="#374151" stroke-width="2.5" opacity="1"/>
+<rect x="60" y="130" width="480" height="20" rx="0" fill="#374151" stroke="#374151" stroke-width="2.5" opacity="1"/>
+<circle cx="84" cy="130" r="7" fill="#F87171" stroke="#F87171" stroke-width="2.5"/>
+<circle cx="106" cy="130" r="7" fill="#FBBF24" stroke="#FBBF24" stroke-width="2.5"/>
+<circle cx="128" cy="130" r="7" fill="#34D399" stroke="#34D399" stroke-width="2.5"/>
+<text x="300" y="137" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#E5E7EB">터미널 (내 컴퓨터)</text>
+<text x="84" y="190" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#E5E7EB">$ ssh siwoo@my-server</text>
+<text x="84" y="224" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#FDE68A">siwoo@my-server's password:</text>
+<text x="84" y="258" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#86EFAC">siwoo@my-server:~$ ls</text>
+<text x="84" y="292" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#E5E7EB">app.zip   public   deploy.log</text>
+<text x="84" y="326" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#86EFAC">siwoo@my-server:~$ exit</text>
+<text x="84" y="360" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="17" font-weight="400" text-anchor="start" fill="#E5E7EB">Connection to my-server closed.</text>
+<rect x="780" y="110" width="360" height="300" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="960" y="150" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1F2937">서버 (데이터센터 어딘가)</text>
+<text x="960" y="176" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">모니터도 키보드도 붙어 있지 않다</text>
+<rect x="820" y="200" width="280" height="86" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="960" y="236" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1F3A5F">셸 (bash)</text>
+<text x="960" y="264" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">받은 글자를 명령으로 해석해 실행</text>
+<text x="960" y="320" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">ls → 파일 목록을 글자로 만들어 돌려보냄</text>
+<text x="960" y="352" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="15" font-weight="400" text-anchor="middle" fill="#6B7280">app.zip · public · deploy.log</text>
+<rect x="760" y="218" width="44" height="90" rx="6" fill="#1F3A5F" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<circle cx="796" cy="296" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="782.0" y="265.0" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">22</text>
+<text x="782.0" y="285.0" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">SSH</text>
+<line x1="544" y1="236" x2="742.0" y2="236.0" stroke="#2B4C7E" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="756,236 742.0,228.3 742.0,243.7" fill="#2B4C7E"/>
+<text x="650" y="220" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#2B4C7E">내가 친 글자 (명령)</text>
+<line x1="756" y1="292" x2="558.0" y2="292.0" stroke="#6B7280" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="544,292 558.0,299.7 558.0,284.3" fill="#6B7280"/>
+<text x="650" y="324" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#6B7280">서버가 돌려준 글자 (결과)</text>
+<rect x="60" y="460" width="340" height="170" rx="14" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="230" y="496" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1F3A5F">터미널 (terminal)</text>
+<text x="230" y="532" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">글자로 명령을 입력하고</text>
+<text x="230" y="560" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">글자로 결과를 보는 창</text>
+<text x="230" y="588" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">Replit의 Shell 탭도 터미널</text>
+<rect x="430" y="460" width="340" height="170" rx="14" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="600" y="496" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1F3A5F">셸 (shell)</text>
+<text x="600" y="532" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">그 글자를 명령으로 해석해</text>
+<text x="600" y="560" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">실행하는 프로그램</text>
+<text x="600" y="588" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">bash, zsh, PowerShell 등</text>
+<rect x="800" y="460" width="340" height="170" rx="14" fill="#F6F8FB" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="970" y="496" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1F3A5F">원격 접속</text>
+<text x="970" y="532" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">내 터미널과 멀리 있는 셸을</text>
+<text x="970" y="560" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">네트워크로 잇는 것</text>
+<text x="970" y="588" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#1F2937">Telnet(23번) → SSH(22번)</text>
+</svg>

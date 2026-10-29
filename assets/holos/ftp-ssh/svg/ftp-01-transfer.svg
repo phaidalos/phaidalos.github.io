@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>파일 전송 프로그램이 하는 일</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#1F3A5F">파일 전송 프로그램이 하는 일</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<rect x="60" y="110" width="310" height="330" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="215" y="152" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#1F2937">내 컴퓨터</text>
+<text x="215" y="180" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">(노트북, 또는 Replit에서 받은 ZIP을 푼 곳)</text>
+<rect x="90" y="200" width="250" height="215" rx="8" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="108" y="236" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">my-site/</text>
+<text x="108" y="265" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">    index.html</text>
+<text x="108" y="294" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">    style.css</text>
+<text x="108" y="323" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">    visitor.js</text>
+<text x="108" y="352" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">    images/</text>
+<text x="108" y="381" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">        logo.png</text>
+<rect x="830" y="110" width="310" height="330" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="985" y="152" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#1F2937">서버</text>
+<text x="985" y="180" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">(호스팅 회사의 컴퓨터, 늘 켜져 있음)</text>
+<rect x="860" y="200" width="250" height="215" rx="8" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1.5" opacity="1"/>
+<text x="878" y="236" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">public_html/</text>
+<text x="878" y="265" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">    holos202599999/</text>
+<text x="878" y="294" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">        index.html</text>
+<text x="878" y="323" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">        style.css</text>
+<text x="878" y="352" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">        visitor.js</text>
+<text x="878" y="381" font-family="Noto Sans Mono CJK KR, D2Coding, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="18" font-weight="400" text-anchor="start" fill="#1F2937">        images/</text>
+<text x="985" y="463" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#6B7280">방문자가 보는 주소  https://holos202599999.epiph.net</text>
+<rect x="430" y="215" width="340" height="120" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="600" y="258" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1F3A5F">파일 전송 프로그램</text>
+<text x="600" y="287" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#6B7280">FileZilla · WinSCP · 호스팅 회사의 웹 파일 관리자</text>
+<text x="600" y="314" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#2B4C7E">서버와 대화하는 약속: FTP 또는 SFTP</text>
+<line x1="372" y1="178" x2="812.0" y2="178.0" stroke="#2B4C7E" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="826,178 812.0,170.3 812.0,185.7" fill="#2B4C7E"/>
+<text x="600" y="165" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#2B4C7E">업로드 (올리기)</text>
+<line x1="826" y1="385" x2="386.0" y2="385.0" stroke="#6B7280" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="372,385 386.0,392.7 386.0,377.3" fill="#6B7280"/>
+<text x="600" y="415" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#6B7280">다운로드 (내려받기)</text>
+<rect x="60" y="488" width="1080" height="150" rx="14" fill="#FFF4E0" stroke="#F3D7A3" stroke-width="2" opacity="1"/>
+<text x="600" y="522" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#B45309">접속할 때 입력하는 네 가지</text>
+<text x="195" y="568" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1F2937">호스트 (서버 주소)</text>
+<text x="195" y="600" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">예: ftp.example.com 또는 123.45.67.89</text>
+<text x="465" y="568" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1F2937">사용자 이름</text>
+<text x="465" y="600" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">예: 202599999</text>
+<text x="735" y="568" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1F2937">비밀번호 (또는 키)</text>
+<text x="735" y="600" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">안내문에서 확인</text>
+<text x="1005" y="568" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#1F2937">포트 (문 번호)</text>
+<text x="1005" y="600" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">FTP 21 · SFTP 22</text>
+</svg>

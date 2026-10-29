@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<title>22번 문 하나로 — SSH 위에서 도는 것들</title>
+<rect x="0" y="0" width="1200" height="675" fill="#FFFFFF"/>
+<text x="600.0" y="54" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#1F3A5F">22번 문 하나로 — SSH 위에서 도는 것들</text>
+<line x1="540.0" y1="72" x2="660.0" y2="72" stroke="#2B4C7E" stroke-width="3" stroke-linecap="round"/>
+<rect x="800" y="100" width="340" height="450" rx="14" fill="#F6F8FB" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="970" y="140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#1F2937">서버</text>
+<rect x="785" y="290" width="44" height="90" rx="6" fill="#1F3A5F" stroke="#1F3A5F" stroke-width="2.5" opacity="1"/>
+<circle cx="821" cy="368" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="807.0" y="337.0" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#FFFFFF">22</text>
+<text x="807.0" y="357.0" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#FFFFFF">SSH</text>
+<rect x="860" y="285" width="250" height="100" rx="14" fill="#E8F0F8" stroke="#2B4C7E" stroke-width="2.5" opacity="1"/>
+<text x="985" y="322" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1F3A5F">SSH 서버 (sshd)</text>
+<text x="985" y="348" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">암호화 · 신원 확인 · 로그인을</text>
+<text x="985" y="368" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">한 번에 처리</text>
+<text x="970" y="430" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1F2937">문은 22번 하나만 열어 두면 된다</text>
+<text x="970" y="458" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">→ 방화벽 설정이 단순해지고</text>
+<text x="970" y="480" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#6B7280">   지켜야 할 곳도 하나뿐</text>
+<rect x="60" y="110" width="440" height="68" rx="14" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2" opacity="1"/>
+<text x="80" y="140" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="start" fill="#1F3A5F">원격 셸 (터미널)</text>
+<text x="80" y="164" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#6B7280">명령을 내리고 결과를 본다</text>
+<line x1="504" y1="144" x2="772.9336361211293" y2="328.77095143573996" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="782,335 776.4,323.8 769.5,333.8" fill="#2B4C7E"/>
+<rect x="60" y="196" width="440" height="68" rx="14" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2" opacity="1"/>
+<text x="80" y="226" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="start" fill="#1F3A5F">SFTP</text>
+<text x="80" y="250" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#6B7280">파일 올리고 내리기 — FileZilla의 SFTP가 이것</text>
+<line x1="504" y1="230" x2="771.709535053168" y2="331.11331359921815" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="782,335 773.8,325.5 769.6,336.8" fill="#2B4C7E"/>
+<rect x="60" y="282" width="440" height="68" rx="14" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2" opacity="1"/>
+<text x="80" y="312" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="start" fill="#1F3A5F">scp</text>
+<text x="80" y="336" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#6B7280">파일 한 개를 명령 한 줄로 복사</text>
+<line x1="504" y1="316" x2="771.0256013034904" y2="334.2499511682242" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="782,335 771.4,328.2 770.6,340.3" fill="#2B4C7E"/>
+<rect x="60" y="368" width="440" height="68" rx="14" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2" opacity="1"/>
+<text x="80" y="398" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="start" fill="#1F3A5F">Git</text>
+<text x="80" y="422" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#6B7280">git@github.com — 키로 push · pull</text>
+<line x1="504" y1="402" x2="771.3061887197912" y2="337.5772854524244" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="782,335 769.9,331.7 772.7,343.5" fill="#2B4C7E"/>
+<rect x="60" y="454" width="440" height="68" rx="14" fill="#FFFFFF" stroke="#2B4C7E" stroke-width="2" opacity="1"/>
+<text x="80" y="484" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="19" font-weight="700" text-anchor="start" fill="#1F3A5F">포트 포워딩 (터널)</text>
+<text x="80" y="508" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#6B7280">서버 안에서만 열린 DB를 내 컴퓨터에서 안전하게</text>
+<line x1="504" y1="488" x2="772.3630891593991" y2="340.3037674770213" stroke="#2B4C7E" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="782,335 769.4,335.0 775.3,345.6" fill="#2B4C7E"/>
+<rect x="60" y="572" width="1080" height="70" rx="14" fill="#FFF4E0" stroke="#F3D7A3" stroke-width="2" opacity="1"/>
+<text x="600" y="600" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#B45309">옛날에는 문이 따로따로였습니다: Telnet 23번, FTP 21번(+데이터 연결마다 또 하나)…</text>
+<text x="600" y="626" font-family="Noto Sans CJK KR, Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#B45309">문이 많으면 방화벽에서 지켜야 할 곳도 많고, 그 문들은 모두 암호화도 없었습니다.</text>
+</svg>
